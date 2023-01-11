@@ -23,7 +23,7 @@ public class Board {
     // loadPattern(Serializer.loadFromFile("./patterns/MAX.gol"));
     private void load() {
 
-        loadPattern(new Pattern(100, 100));
+        Presets.stresstest(this);
 
     }
 
